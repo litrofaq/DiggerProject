@@ -5,10 +5,14 @@ namespace Digger
     public static class Game
     {
         private const string mapWithPlayerTerrain = @"
-TTT T
-TTP T
-T T T
-TT TT";
+TTT TT T TT T T
+TTP TT T TT T T
+T T TT T TT T T
+T T TT T TT T T
+T T TT T TT T T
+T T TT T TT T T
+T T TT T TT T T
+TT TTT T TT T T";
 
         private const string mapWithPlayerTerrainSackGold = @"
 PTTGTT TS
