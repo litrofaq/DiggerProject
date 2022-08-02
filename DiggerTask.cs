@@ -14,7 +14,7 @@ namespace Digger
 
         public bool DeadInConflict(ICreature conflictedObject) => conflictedObject is Player;
 
-        public int GetDrawingPriority() => 0;
+        public int GetDrawingPriority() => 999;
 
         public string GetImageFileName() => "Terrain.png";
     }
@@ -57,7 +57,7 @@ namespace Digger
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
-            return true;
+            return false;
         }
     }
 
